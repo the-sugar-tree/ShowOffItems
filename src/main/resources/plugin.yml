@@ -1,0 +1,10 @@
+name: ShowOffItems
+version: '${version}'
+main: com.sugar_tree.showoffitems.ShowOffItems
+api-version: 1.18
+authors: [ sugar_tree ]
+website: https://github.com/the-sugar-tree
+commands:
+  자랑하기:
+    usage: /지링하기
+    description: 아이템을 자랑합니다.

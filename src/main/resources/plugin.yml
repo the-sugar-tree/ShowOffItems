@@ -3,7 +3,7 @@ version: '${version}'
 main: com.sugar_tree.showoffitems.ShowOffItems
 api-version: 1.18
 authors: [ sugar_tree ]
-website: https://github.com/the-sugar-tree
+website: https://github.com/the-sugar-tree/ShowOffItems
 commands:
   자랑하기:
     usage: /지링하기

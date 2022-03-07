@@ -1,7 +1,7 @@
-# 아이템 자랑 플러그인 (v1.0)
+# 아이템 자랑 플러그인 (v1.0)   
 
-##Minecraft Versions
-###1.18 [[Download]()]
+##Minecraft Versions   
+###1.18 [[Download]()]   
 
-##Command
+##Command   
 /자랑하기

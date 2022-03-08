@@ -6,5 +6,5 @@ authors: [ sugar_tree ]
 website: https://github.com/the-sugar-tree/ShowOffItems
 commands:
   자랑하기:
-    usage: /지링하기
+    usage: /자랑하기
     description: 아이템을 자랑합니다.

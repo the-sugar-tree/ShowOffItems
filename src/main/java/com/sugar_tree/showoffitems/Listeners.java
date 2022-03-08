@@ -21,7 +21,7 @@ public class Listeners implements Listener {
         if (event.getView().title().equals(Component.text(ChatColor.GREEN + "자랑 할 아이템을 올려주세요!"))) {
             if (!(event.getInventory().getItem(4) == null)) {
                 if (!(event.getInventory().getItem(4).getType().isAir())) {
-                    Bukkit.broadcast(((Player) event.getPlayer()).displayName().append(Component.text("님이 ").append(event.getInventory().getItem(4).displayName()).append(Component.text("x" + event.getInventory().getItem(4).getAmount() + "을(를) 지랑합니다!"))));
+                    Bukkit.broadcast(((Player) event.getPlayer()).displayName().append(Component.text("님이 ").append(event.getInventory().getItem(4).displayName()).append(Component.text("x" + event.getInventory().getItem(4).getAmount() + "을(를) 자랑합니다!"))));
                     event.getPlayer().getInventory().addItem(Objects.requireNonNull(event.getInventory().getItem(4)));
                 }
             }
